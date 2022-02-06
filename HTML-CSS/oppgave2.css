@@ -1,0 +1,128 @@
+/* Base styling */
+
+
+  
+  /* Add styling */
+  /* tekst i alle label legger seg oppforbi input og textarea*/
+  label{
+    display:flex;
+        flex-direction:column;
+        font-weight: bold ;
+        
+  }
+  /*input feltene*/
+  input{
+      margin-bottom: 10px;
+  }
+/*seksjon for skjemmaene*/
+#sectionForm{
+    display: grid;
+        flex-direction: column;
+        justify-content: center; 
+        
+    
+}
+/*seksjon for todosboksene*/
+  #sectionBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    
+      
+  }
+#h3{
+    margin-left: 6rem;
+}
+#add{
+    display: block;
+    margin-left: 26rem;
+    background-color: LightSeaGreen;    ;
+    color: #F0F8FF;
+    border: LightSeaGreen;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 5px;
+}
+  
+  article{
+  
+      padding: 5px;
+      box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12) ;
+
+      background: white;
+     
+  }
+
+  
+  
+/*inputfelt for content*/
+  #content{
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+}
+/*Inputfelt for tittel */
+#title{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    
+
+}
+
+
+nav,ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    
+} 
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-bottom: solid lightgray 5px;
+    
+    
+}
+
+li{
+    margin-right: 2rem;
+}
+
+li:first-child{
+    margin-right: auto;
+    
+}
+/*knap i article boksene*/
+article button{
+    background-color: LightSeaGreen;    ;
+    color: #F0F8FF;
+    border: LightSeaGreen;
+    font-weight: bold;
+    /* ja iknow men går ikke ellers :P*/
+    float: right;
+    border-radius: 5px;
+}
+/* ptag i navbar*/
+#left{
+    color: #696969;
+    font-weight: bold;
+}
+
+
+
+
+  
